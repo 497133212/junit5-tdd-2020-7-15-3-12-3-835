@@ -30,7 +30,7 @@ public class FizzBuzzWhizzTest {
         String actual = fizzBuzzWhizz.play(number);
 
         //then
-        assertEquals("fizz", actual);
+        assertEquals("Fizz", actual);
     }
 
     @Test
@@ -43,7 +43,7 @@ public class FizzBuzzWhizzTest {
         String actual = fizzBuzzWhizz.play(number);
 
         //then
-        assertEquals("buzz", actual);
+        assertEquals("Buzz", actual);
     }
 
     @Test
@@ -56,7 +56,7 @@ public class FizzBuzzWhizzTest {
         String actual = fizzBuzzWhizz.play(number);
 
         //then
-        assertEquals("whizz", actual);
+        assertEquals("Whizz", actual);
     }
 
 }
