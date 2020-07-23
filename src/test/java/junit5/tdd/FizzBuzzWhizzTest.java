@@ -21,7 +21,7 @@ public class FizzBuzzWhizzTest {
     }
 
     @Test
-    void should_return_fizz_when_play_fizz_buzz_whizz_given_3() {
+    void should_return_Fizz_when_play_fizz_buzz_whizz_given_3() {
         //given
         int number =3;
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
@@ -34,7 +34,7 @@ public class FizzBuzzWhizzTest {
     }
 
     @Test
-    void should_return_buzz_when_play_fizz_buzz_whizz_given_5() {
+    void should_return_Buzz_when_play_fizz_buzz_whizz_given_5() {
         //given
         int number =5;
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
@@ -47,7 +47,7 @@ public class FizzBuzzWhizzTest {
     }
 
     @Test
-    void should_return_whizz_when_play_fizz_buzz_whizz_given_7() {
+    void should_return_Whizz_when_play_fizz_buzz_whizz_given_7() {
         //given
         int number =7;
         FizzBuzzWhizz fizzBuzzWhizz = new FizzBuzzWhizz();
